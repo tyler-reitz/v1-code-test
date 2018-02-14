@@ -25,9 +25,22 @@ npm install
 
 ## Usage
 
+### Start server
+```
+npm start
 ```
 
+### Start client
 ```
+cd client/
+npm start
+```
+
+Go to: 
+http://localhost:3000
+or 
+http://localhost:4000/graphiql
+
 
 ## Maintainers
 
