@@ -36,7 +36,8 @@ cd client/
 npm start
 ```
 
-Go to: 
+### Then go to:
+
 http://localhost:3000
 or 
 http://localhost:4000/graphiql
