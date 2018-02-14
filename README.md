@@ -1,36 +1,36 @@
-# apollo-tutorial-kit
+# v1-code-test
 
-Starting point for the Apollo GraphQL Server tutorial.
 
-Follow along with the tutorial in the blog post: [How to build a GraphQL server](https://medium.com/apollo-stack/tutorial-building-a-graphql-server-cddaa023c035#.wy5h1htxs). If you want to skip ahead to the solution, check out the [server-tutorial-solution](https://github.com/apollographql/apollo-tutorial-kit/tree/server-tutorial-solution) branch of this repo.
+> Mock graphql server + client
 
-Up-to-date documentation and explanations can be found in the [Apollo Server docs](https://www.apollographql.com/docs/apollo-server/)
+## Table of Contents
 
-## Getting started
+- [Install](#install)
+- [Usage](#usage)
+- [Maintainers](#maintainers)
+- [Contribute](#contribute)
+- [License](#license)
 
-```bash
-git clone https://github.com/apollostack/apollo-starter-kit
-cd apollo-starter-kit
-npm install
-npm start
+## Install
+
+```
 ```
 
-Then open [http://localhost:3000/graphiql](http://localhost:3000/graphiql)
+## Usage
 
-When you paste this on the left side of the page:
-
-```graphql
-{
-  testString
-}
+```
 ```
 
-and hit the play button (cmd-return), then you should get this on the right side:
+## Maintainers
 
-```json
-{
-  "data": {
-    "testString": "It works!"
-  }
-}
-```
+[@tyler-reitz](https://github.com/tyler-reitz)
+
+## Contribute
+
+PRs accepted.
+
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+## License
+
+MIT © 2018 tyler reitz
