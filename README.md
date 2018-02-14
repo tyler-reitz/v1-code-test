@@ -7,18 +7,25 @@
 
 - [Install](#install)
 - [Usage](#usage)
-- [Maintainers](#maintainers)
-- [Contribute](#contribute)
-- [License](#license)
 
 ## Install
 
 ```
+1. Install server deps
+
+git clone https://github.com/tyler-reitz/v1-code-test.git
+npm install
+
+2. Install client deps
+
+cd client/
+npm install
 ```
 
 ## Usage
 
 ```
+
 ```
 
 ## Maintainers
