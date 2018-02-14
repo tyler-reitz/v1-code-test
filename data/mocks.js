@@ -11,7 +11,7 @@ const mocks = {
   Collection: () => ({
     id: () => casual.integer(0,1000),
     desc: () => 'Pantone colors 2018',
-    products: () => new MockList([10,20]),
+    products: () => new MockList(15),
     discount: () => casual.double(0, 100),
   })
 };

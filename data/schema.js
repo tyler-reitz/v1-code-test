@@ -1,7 +1,7 @@
 import { makeExecutableSchema, addMockFunctionsToSchema } from 'graphql-tools';
 import mocks from './mocks';
 
-const typeDefs = `
+export const typeDefs = `
 type Collection {
   id: Int
   desc: String
