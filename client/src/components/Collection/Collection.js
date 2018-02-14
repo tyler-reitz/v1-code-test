@@ -9,7 +9,11 @@ class Collection extends Component {
     return (
       <div>
         <ul>
-          {products.map(p => <li key={p.id}>{p.name} – ${p.price.toFixed(2)}</li>)}
+          {products.map(p => 
+            <li key={p.id}>
+              {p.name} – ${p.price.toFixed(2)}
+            </li>
+          )}
         </ul>
       </div>
     )
